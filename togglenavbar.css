@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+header
+{
+display: flex;
+width: 100%;
+height: fit-content;
+text-align: center;
+padding: 5px;
+margin: 5px;
+transition: all 1s;
+}
+.logo h1{
+    font-size: 30px;    
+    font-weight: 25px;
+    margin-left: 50px;
+}
+.logo h1 span{
+    font-size: 30px;    
+    font-weight: 25px;
+    color: dodgerblue;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 240px;
+    /* z-index: 1000; */
+    color: black;
+    width: 100%;
+
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    padding-right: 20px;
+    
+}
+nav ul li a{
+    font-size: 20px;
+    font-weight: 50px;
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    text-decoration:underline ;
+    color: blue;
+}
+.navbtns{
+    transition: all 1s;
+    opacity: 0;
+}
+ .active{
+    background-color: rgb(165, 187, 224);
+    color: blue;
+    border: none;
+    margin-right: 5px;
+    margin-top: 22px;
+    border-radius: 0.5rem;
+    font-size: 22px;
+    font-weight: 20px;
+    padding:8px 20px;
+    margin: bottom 5px;;
+    cursor: pointer;
+    opacity: 1;
+    /* display: none; */
+}
+.menuebar{
+    /* position: absolute; */
+}
+
+.ri-align-justify{
+    /* position: relative; */
+    padding: 50px;
+
+}
+
